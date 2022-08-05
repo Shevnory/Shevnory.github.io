@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
 
 
 *{
@@ -10,7 +9,7 @@
 }
 
 body{
-    background-color: #f9f6ff;
+    background-color: #fff;
 }
 
 
@@ -63,13 +62,18 @@ body{
 	transition: 0.3s;
 
 	font-size: 17px;
-	font-weight: 500;
+	font-weight: 600;
 	color: #242a38;
 }
 
 .menu a:focus{
 	color: #4f25c7;
 	font-weight: 600;
+}
+
+.menu a:active{
+	color: #4f25c7;
+	font-weight: 800;
 }
 
 #menu-bar:checked ~ .menu{
@@ -126,7 +130,7 @@ header{
 
 .info_perosnal h3{
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 
@@ -210,5 +214,158 @@ header{
 .call-me p{
 	text-decoration: none;
 	color: white;
-	font-size: 16px ;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+
+/*********************ABOUT ME******************************/
+
+.about_container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about_content{
+	max-width: 1200px;
+	display:flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+.about_content h2{
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.about_content p{
+	font-size: 16px;
+	font-family: montserrat;
+	text-align: justify;
+	padding: 25px;
+	font-weight: 400;
+}
+
+/************************************skills************************************/
+
+.skills_container{
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+
+}
+
+.skills_container h2{
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+
+}
+
+.skills_item{
+	background-color: #f9f6ff;
+	display: flex;
+	flex-flow: row wrap;
+	flex-grow: 1;
+	max-width: 300px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.skills_item_title{
+	width: 100%;
+	display:flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 10px;
+}
+
+.skills_item_title img{
+	width: 30px;
+	margin-right: 10px;
+}
+
+.skills_item_title h3{
+	font-size: 20px;	
+	font-weight: 600;
+	text-align: center;
+}
+
+.skills_item p{
+	text-align: justify;
+}
+
+/*************************************EXPERIENCE*******************************/
+
+.experience_container{
+
+	width: 100%;
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+
+	margin-top: 5vh;
+
+}
+
+.experience_container h2{
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 2vh;
+
+}
+
+.experience_item{
+	width: 90%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	
+}
+.experience_icon{
+	width: 33%;
+	height: 150px;
+
+	display:flex;
+	justify-content: center;
+	align-items: center;
+ }
+
+.experience_icon img{
+	width: 100px;
+}
+
+.experience_description{
+	width: 33%;
+	font-weight: 400;
+	padding: 2%;
+
+}
+
+.experience_description h3{
+	font-weight: 600;
+	margin-top: 25%;
+	font-size: 20px;
+}
+
+.experience_description p{
+	font-size: 162
+}
+
+.experience_years{
+	width: 33%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
 }
