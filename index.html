@@ -4,57 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/logo.svg">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <script src="https://kit.fontawesome.com/cd9bf78f01.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Geardo Vega Martinez - Web Developer</title>
 </head>
 <body>
-    <main class="nav">
-            <div class="nav-contenedor">
-                 <label for="menu-bar" class="icon-menu">
-                    <img src="assets/images/menu 1.svg" alt="">
-                </label>          
 
-                <input type="checkbox" id="menu-bar">
-                
-                <nav class="menu" >
-                    <a href="#">Home</a>
-                    <a href="#">Acerca de mí</a>
-                    <a href="#">Mis habilidades</a>
-                    <a href="#">Experiencia</a>
-                    <a href="#">Portafolio</a>
-                    <a href="#">Contacto</a>
-                    
-                </nav>
-            </div>
-    </main>
-
-    <header id="inicio">
-        <div class="info_perosnal">
-            <h1>¡Hola! soy Gerardo.</h1>
-            <h3>desarrollador web</h3>
-        </div>
-        <div class="perfil">
-            
-            <img src="assets/images/img-removebg-preview 2.png" alt="">
-
-        </div>
-        <div class="redes_sociales">
-            <div class="red-social-1"><img src="assets/images/github.svg" alt="" srcset=""></div>
-            <div class="red-social-2"><img src="assets/images/cib_linkedin-in.svg" alt="" srcset=""></div>
-
-            
-            <a href="" class="call-me">
-                <img src="assets/images/mail 3.svg" alt="">
-
-                <p>
-                    Contáctame
-                </p>
-            </a>
-            
-
-        </div>
+    <div class="loader" id="loader">
+        <img src="assets/images/logo.svg" alt="" class="loader--img">
+    </div>
+    
+    <nav class="nav-bar">
+        <a href="index.html"><img src="assets/images/logo.svg" alt="" class="menu-bar-logo"></a>
         
+        <i id="icon-menu" class="fa-solid fa-bars"></i>
+
+        <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-url">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-url">Acerca de mí</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-url">Mis habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-url">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#briefcase" class="nav-url">Portafolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-url">Contacto</a>
+                </li>
+            </ul>
+    </nav> 
+
+
+    <header id="home
+        <div class="header-content">            
+            <div class="header-container">
+                <div class="info_personal">
+                    <h1>¡Hola! soy Gerardo.</h1>
+                    <h3>desarrollador web</h3>
+                </div>
+
+                <div class="img-perfil-container">
+                    <img src="assets/images/gera-1.jpg" alt="" class="img-perfil">
+                </div>
+                
+                <div class="redes_sociales">
+                    <div class="icon-redes-sociales">
+                        <a href="https://github.com/Shevnory">
+                            <div class="red-social-1">
+                                <img src="assets/images/github.svg" alt="" srcset="">
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/gerardo-vega-5b65a6121/">
+                            <div class="red-social-2">
+                                <img src="assets/images/cib_linkedin-in.svg" alt="" srcset="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="call-me">
+                        <a href="mailto:gvega9610martinez@gmail.com" class="btn-call-me">
+                            <img src="assets/images/mail 3.svg" alt="" class="icon-call-me">
+                            <p>
+                                Contáctame
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 
     <section class="about_container" id="about">
@@ -63,117 +90,175 @@
                 Acerca de mí
             </h2>
             <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, doloribus corrupti in et, ab exercitationem ut nesciunt facere neque quidem mollitia saepe iusto totam. Libero facere quasi eveniet porro totam!
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, possimus? Voluptates at voluptatibus mollitia eveniet, perspiciatis cupiditate sit illo alias, tempora optio doloremque quaerat consectetur quas corporis, impedit praesentium pariatur!
+                Soy Gerardo Vega, un desarrollador web apasionado a quien le gusta innovar en la programación y el diseño del futuro. Tengo experiencia en el desarrollo de aplicaciones web y de escritorio, incluido el diseño frontal completo. Esto incluye identidad de marca, gráficos e ilustraciones.
             </p>
         </div>
     </section>
 
 
-    <section class="skills_container">
+    <section class="skills_container" id="skills">
         <h2>
             Mis Habilidades
         </h2>
 
-        <div class="skills_item">
-            <div class="skills_item_title">
-                <img src="assets/images/layer1.svg" alt="">
-                <h3>
-                   UX/UI Design 
-                </h3>
+        <div class="skills_content">
+            
+            <div class="skills_item">
+                <div class="skills_item_title">
+                    <img src="assets/images/layer1.svg" alt="">
+                    <h3>
+                    UX/UI Design 
+                    </h3>
+                </div>
+                <p>
+                    Generar una buena experiencia de usuario es fundamental para cualquier marca, esto se logra a través de un diseño de interfaz adecuado y una implementación precisa de estos factores logran potenciar imagen de una marcar.
+                </p>
             </div>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis rem amet facere tempora? Aspernatur ratione saepe deleniti optio fuga excepturi ut quibusdam consequatur ea libero? Saepe id nam soluta cumque.
-            </p>
-        </div>
-        <div class="skills_item">
-            <div class="skills_item_title">
-                <img src="assets/images/Group 95.svg" alt="">
-                <h3>
-                    Product Designer
-                </h3>
+
+            <div class="skills_item">
+                <div class="skills_item_title">
+                    <img src="assets/images/webpage.png" alt="">
+                    <h3>
+                        Desarrollo web
+                    </h3>
+                </div>
+                <p>
+                    Desde el desarrollo de sitios web corporativos, comercio electrónico, aplicaciones web personalizadas y configuradores de productos, nuestro código es inteligente.
+                </p>
             </div>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, perferendis obcaecati ducimus excepturi omnis dolorum vitae iste distinctio cum enim voluptatem eveniet, fuga aut veniam assumenda possimus. Atque, eum excepturi!
-            </p>
-        </div>
-        <div class="skills_item">
-            <div class="skills_item_title">
-                <img src="assets/images/smartphonetablet-115830_115799 1.svg" alt="">
-                <h3>
-                    Interactive Design
-                </h3>
+
+            <div class="skills_item">
+                <div class="skills_item_title">
+                    <img src="assets/images/search-engine.png" alt="">
+                    <h3>
+                        SEO
+                    </h3>
+                </div>
+                <p>
+                    Las regulaciones de optimización de motores de búsqueda siempre evolucionan; nos mantenemos al tanto de los últimos cambios para ayudar a los clientes a obtener una clasificación más alta.
+                </p>
             </div>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dignissimos explicabo delectus numquam porro pariatur officia eius recusandae, excepturi molestiae quisquam, eum architecto laboriosam nihil nesciunt. Placeat officia dolorum corrupti.
-            </p>
+            
         </div>
     </section>
 
-    <section class="experience_container">
-        <h2>
-            Experiencia
-        </h2>
-        <section class="experience_item">
-            <div class="experience_icon">
-                <img src="assets/images/amazon.svg" alt="">
-            </div>
-            <div class="experience_description">
-                <h3>
-                    Amazon
-                </h3>
-                <p>
-                    UI Designer 
-                    <br>
-                    2015 - 2017
-                </p>
-            </div>
-            <div class="experience_years">
-                <h2>
-                    2 años
-                </h2>
-            </div>
-        </section>
-        <section class="experience_item">
-            <div class="experience_icon">
-                <img src="assets/images/airbnb.svg" alt="">
-            </div>
-            <div class="experience_description">
-                <h3>
-                    Airbnb
-                </h3>
-                <p>
-                    Senior UX/UI
-                    <br>
-                    2017-2018
-                </p>
-            </div>
-            <div class="experience_years">
-                <h2>
-                    1 año
-                </h2>
-            </div>
-        </section>
-        <section class="experience_item">
-            <div class="experience_icon">
-                <img src="assets/images/google.svg" alt="">
-            </div>
-            <div class="experience_description">
-                <h3>
-                    Google
-                </h3>
-                <p>
-                    Product Designer
-                    <br>
-                    2018 - Actualidad
-                </p>
-            </div>
-            <div class="experience_years">
-                <h2>
-                    2 años
-                </h2>
-            </div>
-        </section>
+
+    <section class="experience_container" id="experience">
+        <div class="experience-content">
+            <h2>
+                Experiencia
+            </h2>
+            <section class="experience_item">
+                <div class="experience_icon">
+                    <img src="assets/images/canacopecdmx.svg" alt="">
+                </div>
+                <div class="experience_description">
+                    <h3>
+                        CANACOPE CDMX
+                    </h3>
+                    <p>
+                        Gerente en Desarrollo web 
+                        <br>
+                        2017 - 2021
+                    </p>
+                </div>
+                <div class="experience_years">
+                    <h2>
+                        4 años
+                    </h2>
+                </div>
+            </section>
+
+            <section class="experience_item">
+                <div class="experience_icon">
+                    <img src="assets/images/canacopecdmx.svg" alt="">
+                </div>
+                <div class="experience_description">
+                    <h3>
+                        CANACOPE CDMX
+                    </h3>
+                    <p>
+                        Vicepresidente de Servicios
+                        <br>
+                        2020 - 2021
+                    </p>
+                </div>
+                <div class="experience_years">
+                    <h2>
+                        1 año
+                    </h2>
+                </div>
+            </section>
+
+            <section class="experience_item">
+                <div class="experience_icon">
+                    <img src="assets/images/ART-CREATIVA.svg" alt="">
+                </div>
+                <div class="experience_description">
+                    <h3>
+                        Art creativa
+                    </h3>
+                    <p>
+                        Desarrollador web y diseñadro grafíco
+                        <br>
+                        2018 - 2021
+                    </p>
+                </div>
+                <div class="experience_years">
+                    <h2>
+                        3 años
+                    </h2>
+                </div>
+            </section>
+        </div>
     </section>
+
+    <section class="briefcase_container" id="briefcase">
+        <h2>
+            Portafolio
+        </h2>
+        <div class="briefcase_content">
+            <img src="assets/images/briefcase-1.png" alt="">
+            <img src="assets/images/briefcase-2.png" alt="">
+            <img src="assets/images/briefcase-3.png" alt="">
+        </div>
+    </section>
+
+    <section class="contact_container" id="contact">
+        <div class="contact-content">
+            <h2>
+                Contacto
+            </h2>
+            <div class="contact_info">
+                <a href="tel:+525511848270" class="contact-item">
+                    <div class="contact-icon">
+                        <img src="assets/images/phone 3.svg" alt="">
+                    </div>
+                    <h3>Número celular</h3>
+                    <p>5511848270</p>
+                </a>
+                
+                <a href="mailto:gvega9610martinez@gmail.com" class="contact-item">
+                    <div class="contact-icon">
+                        <img src="assets/images/mail2.svg" alt="">
+                    </div>
+                    <h3>Email</h3>
+                    <p>gvega9610martinez@gmail.com</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>Hecho con <i class="fa-solid fa-heart"></i> en Academlo</p>
+        </div>
+        
+    </footer>
+
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
+
